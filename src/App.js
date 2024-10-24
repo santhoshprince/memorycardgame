@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Card from "../src/componets/card";
 import "./App.css";
+import Dashboard from "./componets/dashboard";
+
 
 function App() {
   const cardData = [
@@ -91,6 +93,10 @@ function App() {
           />
         ))}
       </div>
+      <h1>
+        Dashboard 
+      </h1>
+      <Dashboard />
     </div>
   );
 }
