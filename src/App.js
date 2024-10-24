@@ -93,10 +93,10 @@ function App() {
           />
         ))}
       </div>
-      {/* <h1>
+      <h1>
         Dashboard 
       </h1>
-      <Dashboard /> */}
+      <Dashboard />
     </div>
   );
 }
