@@ -1,0 +1,34 @@
+.card{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.card .fliped {
+    transform: rotateY(180deg);
+}
+.card div {
+    transition: transform 0.5s;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.card .front ,.card .back{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rebeccapurple;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    box-shadow: #fff;
+}
+.card .front{
+    transform: rotateY(180deg);
+}
+.card .back {
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+}
